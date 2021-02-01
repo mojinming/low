@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+print("helloworld")
+
+
+#在xface  用./***.py   就可以运行py文件
