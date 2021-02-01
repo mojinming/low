@@ -1,0 +1,8 @@
+n="y"
+while n=="y":
+    a=int(input("请输入次数"))
+    for b in range(a):
+        if b % 7 ==0 or b%10==7:
+            continue
+        print(b)
+    n=input("继续请按“y”")
