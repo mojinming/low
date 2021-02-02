@@ -1,0 +1,9 @@
+a,b=45,32
+print(a)
+print(b)
+
+data = ("shiyanlou", "China", "Python")
+name, country, language = data
+print(name)
+print(country)
+print(language)
