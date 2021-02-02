@@ -1,0 +1,14 @@
+n="y"
+while n=="y":
+    amount = float(input("请输入存入金额"))
+    inrate = float(input("请输入利率"))
+    period = int(input("请输入存入的年数“期限”"))
+    value = 0
+    year = 1
+    while year <= period:
+        value = amount + inrate * amount
+        print("year{}RS.{:.2f}".format(year, value))
+        amount = value
+        year = year + 1
+    n=input("继续请按“y”")
+
