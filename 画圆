@@ -1,0 +1,7 @@
+import turtle
+ 
+turtle.setup(width=800, height=800, startx=100, starty=100)
+turtle.bgcolor("black")
+t = turtle.Pen()
+t.pencolor("white")
+t.circle(100, 360)
