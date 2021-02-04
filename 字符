@@ -1,0 +1,41 @@
+s = "shi yan lou"
+print(s.title())
+print(s.upper())
+s = "SHI YAN LOU"
+print(s.lower())
+s="sfGAksEfS"
+print(s)
+print(s.swapcase())
+print(s.isalnum())
+print(s.isalpha())
+# s = "1234"
+# s.isdigit() # 检查字符串是否所有字符为数字
+# True
+# s = "ShiYanLou is coming"
+# s.islower() # 检查字符串是否所有字符为小写
+# False
+# s = "Shiyanlou Is Coming"
+# s.istitle() # To 检查字符串是否为标题样式
+# True
+# s = "CHINA"
+# s.isupper() # 检查字符串是否所有字符为大写
+# True
+# s = "We all love Python"
+# >>> s.split()
+# ['We', 'all', 'love', 'Python']
+# >>> x = "shiyanlou:is:waiting"
+# >>> x.split(':')
+# ['shiyanlou', 'is', 'waiting']
+# >>> "-".join("GNU/Linux is great".split())
+# 'GNU/Linux-is-great'
+
+
+# >>> s = "  a bc\n " #不指定参数则默认剥离掉首尾的空格和换行符
+# >>> s.strip()
+# 'a bc'
+
+# s = "www.foss.in"
+# >>> s.lstrip("cwsd.") #删除在字符串左边出现的'c','w','s','d','.'字符
+# 'foss.in'
+# >>> s.rstrip("cnwdi.") #删除在字符串右边出现的'c','n','w','d','i','.'字符
+# 'www.foss'
