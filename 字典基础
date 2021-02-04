@@ -1,0 +1,22 @@
+data = {'kushal': 'Fedora', 'kart_': 'Debian', 'Jace': 'Mac'} #字典是是无序的键值对（key:value）集合
+print(data['kart_'])
+data['parthan'] = 'Ubuntu'
+del data['kushal']
+print('ShiYanLou' in data)
+ab=dict((('Indian','Delhi'),('Bangladesh','Dhaka')))#dict()  从包含键值对的元组中创建字典
+print(ab)
+for x, y in data.items():     #要遍历一个字典，使用字典的 items() 方法
+    print("{}  {},".format(x, y),end="")
+print("\b")
+
+data.setdefault('kart_2',[]).append("fas")#判断这个元素是否存在，不存在则创建一个默认值
+print(data)
+
+print(data.get("Jace","df"))#如果键"Jace"不存在，那么返回指定的 default "df"值。
+
+
+for i, j in enumerate(['a', 'b', 'c']):#遍历列表（或任何序列类型）的同时获得元素索引值，你可以使用 enumerate()
+    print(i, j)
+
+for i, j in enumerate(data):
+    print(i,j)
