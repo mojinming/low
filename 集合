@@ -1,0 +1,11 @@
+a=set("hsjkafjkhuiw")
+b=set("jksdhfjkhg")
+print(a)
+print(b)
+print(a&b)#交集
+print(a^b)#集以外
+print(a-b)#差集，从a去b中有的
+print(b-a)#差集，从b去a中有的
+print(b|a)#并集
+print(a.pop())#随机删除一个元素
+a.add("fasfslgkzxcvbnf")
