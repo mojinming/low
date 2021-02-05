@@ -30,12 +30,16 @@ print(s.isalpha())
 # 'GNU/Linux-is-great'
 
 
-# >>> s = "  a bc\n " #不指定参数则默认剥离掉首尾的空格和换行符
-# >>> s.strip()
-# 'a bc'
+>>> s = "  a bc\n "
+>>> s.strip()
+'a bc'
 
 # s = "www.foss.in"
 # >>> s.lstrip("cwsd.") #删除在字符串左边出现的'c','w','s','d','.'字符
 # 'foss.in'
 # >>> s.rstrip("cnwdi.") #删除在字符串右边出现的'c','n','w','d','i','.'字符
 # 'www.foss'
+
+# >>> s = "  a bc\n " #剥离掉首尾的空格和换行符
+# >>> s.strip()
+# 'a bc'
