@@ -53,3 +53,23 @@ s = "faulty a for a reason" #文本搜索
 # 
 # print(s.startswith("fa")) # 检查字符串是否以 fa 开头
 # print(s.endswith("reason"))
+
+
+#回文检查
+s = input("Please enter a string: ")
+z = s[::-1]  #把输入的字符串s 进行倒序处理形成新的字符串z
+if s == z:
+    print("The string is a palindrome")
+else:
+    print("The string is not a palindrome")
+    
+#单词计数    
+print("my name is %s.I am %d years old" % ('Shixiaolou',4)) #格式化操作符（%）为真实值预留位置，并控制显示的格式
+
+# % s 字符串（用str()函数进行字符串转换）
+# % r字符串（用repr()函数进行字符串转换）
+# % d十进制整数
+# % f浮点数
+# % % 字符 %
+s = input("Enter a line: ").strip() #头尾去空格 ，否则计算出错
+print("The number of words in the line are %d" % (len(s.split(" "))))
