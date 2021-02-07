@@ -43,3 +43,13 @@ print(s.isalpha())
 # >>> s = "  a bc\n " #剥离掉首尾的空格和换行符
 # >>> s.strip()
 # 'a bc'
+
+
+s = "faulty a for a reason" #文本搜索
+# print(s.find("for"))
+# 
+# if s.find("fora") == -1:
+#     print("找不到")
+# 
+# print(s.startswith("fa")) # 检查字符串是否以 fa 开头
+# print(s.endswith("reason"))
